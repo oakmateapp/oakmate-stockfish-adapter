@@ -6,10 +6,9 @@ This repository provides **GPLv3-compliant components** that enable communicatio
 
 ## 🔍 Purpose
 
--   Provide a clean and isolated API for Oakmate's proprietary code
--   Bundle the official **Stockfish 16 WASM binary** (as required by GPLv3)
+-   Provide a clean and isolated code snipped used in Oakmate's proprietary code
+-   Bundle the official **Stockfish 17 WASM binary** (as required by GPLv3)
 -   Implement a **UCI protocol adapter** layer in JavaScript
--   Prevent GPL license propagation ("contamination") into closed-source logic
 
 ---
 
@@ -17,7 +16,7 @@ This repository provides **GPLv3-compliant components** that enable communicatio
 
 | Component        | Description                   | License                                            |
 | ---------------- | ----------------------------- | -------------------------------------------------- |
-| `stockfish.wasm` | Official Stockfish 16 binary  | [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) |
+| `stockfish.wasm` | Official Stockfish 17 binary  | [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) |
 | `app.js`         | UCI command bridge layer      | GPLv3                                              |
 | Build Scripts    | Emscripten-based WASM tooling | GPLv3                                              |
 
